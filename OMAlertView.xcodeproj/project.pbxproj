@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABF7B5E139EB23B0085ADE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABF7B5D139EB23B0085ADE5 /* UIKit.framework */; };
+		1ABF7B60139EB23B0085ADE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABF7B5F139EB23B0085ADE5 /* Foundation.framework */; };
+		1ABF7B62139EB23B0085ADE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABF7B61139EB23B0085ADE5 /* CoreGraphics.framework */; };
+		1ABF7B68139EB23B0085ADE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ABF7B66139EB23B0085ADE5 /* InfoPlist.strings */; };
+		1ABF7B6A139EB23B0085ADE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF7B69139EB23B0085ADE5 /* main.m */; };
+		1ABF7B6E139EB23B0085ADE5 /* OMAlertViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF7B6D139EB23B0085ADE5 /* OMAlertViewAppDelegate.m */; };
+		1ABF7B70139EB23B0085ADE5 /* OMAlertViewViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 1ABF7B6F139EB23B0085ADE5 /* OMAlertViewViewController.h */; };
+		1ABF7B72139EB23B0085ADE5 /* OMAlertViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF7B71139EB23B0085ADE5 /* OMAlertViewViewController.m */; };
+		1ABF7B75139EB23B0085ADE5 /* OMAlertViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABF7B73139EB23B0085ADE5 /* OMAlertViewViewController.xib */; };
+		1ABF7B82139EB24E0085ADE5 /* OMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF7B81139EB24E0085ADE5 /* OMAlertView.m */; };
+		1ABF7B8B139EB7E80085ADE5 /* coolBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ABF7B8A139EB7E80085ADE5 /* coolBackground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ABF7B59139EB23B0085ADE5 /* OMAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABF7B5D139EB23B0085ADE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1ABF7B5F139EB23B0085ADE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1ABF7B61139EB23B0085ADE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1ABF7B65139EB23B0085ADE5 /* OMAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OMAlertView-Info.plist"; sourceTree = "<group>"; };
+		1ABF7B67139EB23B0085ADE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ABF7B69139EB23B0085ADE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ABF7B6B139EB23B0085ADE5 /* OMAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OMAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		1ABF7B6C139EB23B0085ADE5 /* OMAlertViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMAlertViewAppDelegate.h; sourceTree = "<group>"; };
+		1ABF7B6D139EB23B0085ADE5 /* OMAlertViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMAlertViewAppDelegate.m; sourceTree = "<group>"; };
+		1ABF7B6F139EB23B0085ADE5 /* OMAlertViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMAlertViewViewController.h; sourceTree = "<group>"; };
+		1ABF7B71139EB23B0085ADE5 /* OMAlertViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMAlertViewViewController.m; sourceTree = "<group>"; };
+		1ABF7B74139EB23B0085ADE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OMAlertViewViewController.xib; sourceTree = "<group>"; };
+		1ABF7B7F139EB24A0085ADE5 /* OMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAlertView.h; sourceTree = "<group>"; };
+		1ABF7B81139EB24E0085ADE5 /* OMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAlertView.m; sourceTree = "<group>"; };
+		1ABF7B8A139EB7E80085ADE5 /* coolBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coolBackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABF7B56139EB23B0085ADE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABF7B5E139EB23B0085ADE5 /* UIKit.framework in Frameworks */,
+				1ABF7B60139EB23B0085ADE5 /* Foundation.framework in Frameworks */,
+				1ABF7B62139EB23B0085ADE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABF7B4E139EB23B0085ADE5 = {
+			isa = PBXGroup;
+			children = (
+				1ABF7B63139EB23B0085ADE5 /* OMAlertView */,
+				1ABF7B5C139EB23B0085ADE5 /* Frameworks */,
+				1ABF7B5A139EB23B0085ADE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABF7B5A139EB23B0085ADE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF7B59139EB23B0085ADE5 /* OMAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABF7B5C139EB23B0085ADE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF7B5D139EB23B0085ADE5 /* UIKit.framework */,
+				1ABF7B5F139EB23B0085ADE5 /* Foundation.framework */,
+				1ABF7B61139EB23B0085ADE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ABF7B63139EB23B0085ADE5 /* OMAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF7B83139EB26D0085ADE5 /* OMAlertView */,
+				1ABF7B6C139EB23B0085ADE5 /* OMAlertViewAppDelegate.h */,
+				1ABF7B6D139EB23B0085ADE5 /* OMAlertViewAppDelegate.m */,
+				1ABF7B6F139EB23B0085ADE5 /* OMAlertViewViewController.h */,
+				1ABF7B71139EB23B0085ADE5 /* OMAlertViewViewController.m */,
+				1ABF7B73139EB23B0085ADE5 /* OMAlertViewViewController.xib */,
+				1ABF7B64139EB23B0085ADE5 /* Supporting Files */,
+			);
+			path = OMAlertView;
+			sourceTree = "<group>";
+		};
+		1ABF7B64139EB23B0085ADE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF7B65139EB23B0085ADE5 /* OMAlertView-Info.plist */,
+				1ABF7B66139EB23B0085ADE5 /* InfoPlist.strings */,
+				1ABF7B69139EB23B0085ADE5 /* main.m */,
+				1ABF7B6B139EB23B0085ADE5 /* OMAlertView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ABF7B83139EB26D0085ADE5 /* OMAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF7B89139EB7DC0085ADE5 /* Background Images */,
+				1ABF7B7F139EB24A0085ADE5 /* OMAlertView.h */,
+				1ABF7B81139EB24E0085ADE5 /* OMAlertView.m */,
+			);
+			name = OMAlertView;
+			sourceTree = "<group>";
+		};
+		1ABF7B89139EB7DC0085ADE5 /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF7B8A139EB7E80085ADE5 /* coolBackground.png */,
+			);
+			name = "Background Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABF7B58139EB23B0085ADE5 /* OMAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABF7B78139EB23B0085ADE5 /* Build configuration list for PBXNativeTarget "OMAlertView" */;
+			buildPhases = (
+				1ABF7B55139EB23B0085ADE5 /* Sources */,
+				1ABF7B56139EB23B0085ADE5 /* Frameworks */,
+				1ABF7B57139EB23B0085ADE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMAlertView;
+			productName = OMAlertView;
+			productReference = 1ABF7B59139EB23B0085ADE5 /* OMAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABF7B50139EB23B0085ADE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Apple Inc.";
+			};
+			buildConfigurationList = 1ABF7B53139EB23B0085ADE5 /* Build configuration list for PBXProject "OMAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ABF7B4E139EB23B0085ADE5;
+			productRefGroup = 1ABF7B5A139EB23B0085ADE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABF7B58139EB23B0085ADE5 /* OMAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABF7B57139EB23B0085ADE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABF7B68139EB23B0085ADE5 /* InfoPlist.strings in Resources */,
+				1ABF7B70139EB23B0085ADE5 /* OMAlertViewViewController.h in Resources */,
+				1ABF7B75139EB23B0085ADE5 /* OMAlertViewViewController.xib in Resources */,
+				1ABF7B8B139EB7E80085ADE5 /* coolBackground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABF7B55139EB23B0085ADE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABF7B6A139EB23B0085ADE5 /* main.m in Sources */,
+				1ABF7B6E139EB23B0085ADE5 /* OMAlertViewAppDelegate.m in Sources */,
+				1ABF7B72139EB23B0085ADE5 /* OMAlertViewViewController.m in Sources */,
+				1ABF7B82139EB24E0085ADE5 /* OMAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ABF7B66139EB23B0085ADE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABF7B67139EB23B0085ADE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1ABF7B73139EB23B0085ADE5 /* OMAlertViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABF7B74139EB23B0085ADE5 /* en */,
+			);
+			name = OMAlertViewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABF7B76139EB23B0085ADE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1ABF7B77139EB23B0085ADE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABF7B79139EB23B0085ADE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMAlertView/OMAlertView-Prefix.pch";
+				INFOPLIST_FILE = "OMAlertView/OMAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1ABF7B7A139EB23B0085ADE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMAlertView/OMAlertView-Prefix.pch";
+				INFOPLIST_FILE = "OMAlertView/OMAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABF7B53139EB23B0085ADE5 /* Build configuration list for PBXProject "OMAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABF7B76139EB23B0085ADE5 /* Debug */,
+				1ABF7B77139EB23B0085ADE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABF7B78139EB23B0085ADE5 /* Build configuration list for PBXNativeTarget "OMAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABF7B79139EB23B0085ADE5 /* Debug */,
+				1ABF7B7A139EB23B0085ADE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABF7B50139EB23B0085ADE5 /* Project object */;
+}
