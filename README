@@ -1,0 +1,27 @@
+OMAlertView
+Author: James Magahern <jamesmag@me.com>
+Created: March 3rd, 2011
+
+How to use:
+OMAlertView is a subclass of UIAlertView, so you can instantiate it/configure it exactly like a regular
+UIAlertView with a few nice additional properties. The additional properties that you can set are listed
+below:
+
+backgroundColor -- The background color of the alert view, default is dark blue
+borderColor 	-- The border surrounding the alert view, default is white-ish
+shadowColor	-- The color of the drop shadow. Default is black.
+
+textColor	-- The color of the text on the alert view. Default is white.
+textShadowColor -- The shadow color of the text, which is a Y:-1px offset. Default is black.
+
+backgroundImage -- Use an UIImage instead of a background color. Default is nil.
+
+titleFont	-- The UIFont for the Title of the alert view. Default is Helvetica-Neue Bold 16pt
+bodyFont	-- The UIFont for the body of the alert view. Default is Helvetica-Neue 14pt.
+
+glossOpacity	-- Change the opacity of the shine on top of the alert view. Default is 1.0.
+borderWidth	-- The width of the border surrounding the alert view. Default is 2.0.
+
+borderRadius	-- The radius by which the corners are rounded. Default is 10.0.
+shadowRadius	-- The depth of the shadow. Default is 5.0.
+
